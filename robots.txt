@@ -1,5 +1,12 @@
 User-agent: *
+# Blocca pagine di test o non pubbliche
+Disallow: /testpage
+Disallow: /gestionale
 Disallow: /privacy
 Disallow: /termini-di-servizio
 
+# Lascia libere tutte le altre pagine
+Allow: /
+
+# Sitemap
 Sitemap: https://mindfulbraineducation.github.io/andreazerbato-sitemap/sitemap.xml
